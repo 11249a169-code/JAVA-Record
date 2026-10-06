@@ -1,3 +1,18 @@
+EXPNO:1A
+DATE:28\8\26                         SORT IN ASCENDING ORDER
+
+AIM: To write a program to sort the given elements in ascending order (smallest to largest). 
+
+ ALGORITHM:
+ 1. Read the number of elements, n. 
+2. Read n elements into an array. 
+3. Compare each element with the elements that follow it. 
+4. If the current element is greater than the next element, swap them. 
+5. Repeat the comparison until all elements are arranged from smallest to largest. 
+6. Display the sorted array. 
+7. Stop
+
+SOURCE CODE:
 import java.util.Scanner;
 
 public class AscendingOrder {
@@ -29,4 +44,13 @@ public class AscendingOrder {
     }
 }
 
+OUTPUT:
+Enter number of elements you want in array: 5
+Enter all the elements:
+5 2 8 1 4
+Ascending order: 1,2,4,5,8
+
+    RESULT:
+
+Thus, the Java program to sort the given array elements in ascending order was successfully executed, and the elements were displayed in ascending order.
 
