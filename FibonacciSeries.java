@@ -2,8 +2,7 @@ EXPNO:06
 DATE: 18\8\26                FIBONACCI SERIES
  
 AIM:
-Thus, the Java program to check whether a given positive number is an Armstrong number or not was successfully executed, and the required result was obtained.
-
+:  To write a Java program to generate and display the Fibonacci series up to n terms using a method.
 ALGORITHM:
 •  Start 
 •  Import the Scanner class. 
