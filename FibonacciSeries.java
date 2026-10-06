@@ -1,3 +1,29 @@
+EXPNO:06
+DATE: 18\8\26                FIBONACCI SERIES
+ 
+AIM:
+Thus, the Java program to check whether a given positive number is an Armstrong number or not was successfully executed, and the required result was obtained.
+
+ALGORITHM:
+•  Start 
+•  Import the Scanner class. 
+•  Create a Scanner object to read input. 
+•  Read the number of terms n. 
+•  Call the fibonacci(n) method. 
+•  In the fibonacci() method: 
+•	If n == 0, display 0. 
+•	If n == 1, display 0 1. 
+•	Otherwise, initialize a = 0 and b = 1. 
+•  Display the first two Fibonacci numbers, 0 and 1. 
+•  Use a for loop to calculate the next terms: 
+•	nextNumber = a + b 
+•	Display nextNumber. 
+•	Set a = b and b = nextNumber. 
+•  Continue until the required number of terms is generated. 
+•  Stop
+
+ SOURCE CODE:
+
 import java.util.Scanner;
  public class FibonacciSeries
  {
@@ -34,5 +60,11 @@ b = nextNumber;
 }
 }
 
+OUTPUT:
 
+Enter the value of n: 8
+0 1 1 2 3 5 8 13 21
+
+ RESULT:
+Thus, the Java program to generate the Fibonacci series using a method was successfully executed, and the Fibonacci series was displayed.
 
